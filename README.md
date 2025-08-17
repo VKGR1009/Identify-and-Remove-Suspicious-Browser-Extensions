@@ -24,5 +24,34 @@ Best Practices
 - Only install extensions from trusted sources.  
 - Review permissions carefully before installing.  
 - Regularly audit and remove unused extensions.  
-- Keep browser and extensions updated.  
+- Keep browser and extensions updated.
+
+### How to Audit Extensions Yourself
+
+1. Open your browser and navigate to the extension management page:
+   - **Chrome/Edge:** chrome://extensions/
+   - **Firefox:** about:addons
+2. Review each listed extension:
+   - Note the publisher and user reviews.
+   - Check the permissions requested (e.g., “Read and change all your data on all websites”).
+3. For any extension you don’t recognize or trust:
+   - Click **Remove** or **Disable**.
+4. For trusted and widely used extensions, choose **Keep**.
+5. Restart your browser and confirm behavior improved.
+
+#### Extensions Removed
+| Extension        | Concern                                                            |
+|------------------|--------------------------------------------------------------------|
+| Free VPN         | Unverified publisher, excessive permissions, potential data logger |
+| XYZ Ad Blocker   | Unknown publisher, unnecessary full-site access                   |
+
+#### Extensions Kept
+- Grammarly (Trusted publisher)  
+- uBlock Origin (Open-source and minimal permissions)
+
+#### Future Enhancements
+- Automate extension permission audits via script.  
+- Cross-browser version of this analysis.  
+- Dashboard to track safe and unsafe publishers/extensions.
+
 
