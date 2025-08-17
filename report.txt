@@ -1,0 +1,56 @@
+Browser Extensions Security Analysis Report
+
+Objective
+The purpose of this task was to analyze the installed browser extensions, identify potentially harmful or unused ones, and document findings along with best practices to ensure safe browsing.
+
+Steps Performed
+
+Opened the browser’s extension manager (chrome://extensions/ on Chrome/Edge).
+
+Reviewed each extension’s publisher, permissions, and purpose.
+
+Classified extensions as either Safe to Keep or Suspicious/Unused.
+
+Removed or disabled suspicious/unused extensions.
+
+Documented findings and outlined best practices.
+
+Findings
+
+Extensions Removed
+
+Free VPN – Requested full access to browsing activity, potential risk of data logging and interception.
+
+XYZ Ad Blocker – Publisher unknown, requested permissions beyond what is necessary for an ad blocker.
+
+Extensions Kept
+
+Grammarly – Trusted publisher, only requires text access where used.
+
+uBlock Origin – Widely used, open-source ad blocker with minimal and necessary permissions.
+
+Risks of Malicious Extensions
+
+Data Theft – Ability to steal passwords, credit card numbers, or browsing history.
+
+Browser Hijacking – Redirecting users to malicious websites.
+
+Tracking & Privacy Violations – Inserting hidden trackers or ads into browsing sessions.
+
+Performance Issues – Unnecessary CPU and memory usage, slowing down the browser.
+
+Best Practices
+
+Only install extensions from trusted sources (Chrome Web Store, Mozilla Add-ons).
+
+Always review requested permissions before installing.
+
+Regularly audit and remove unused extensions.
+
+Keep both browser and extensions updated.
+
+Minimize usage to only necessary extensions.
+
+Conclusion
+
+This analysis helped in identifying and removing suspicious extensions while keeping only trusted ones. The overall browser environment is now more secure, with reduced risks of data theft, privacy violations, or performance degradation. Regular extension reviews are recommended as part of good cybersecurity hygiene.
